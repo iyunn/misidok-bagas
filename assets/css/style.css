@@ -9,7 +9,7 @@
 }
 .hero{
     background: linear-gradient(111.64deg, #3570D2 0%, rgba(53, 112, 210, 0.6) 100.44%);
-    height: 645px;
+    height: 650px;
     width: 100%;
 }
 .container{
@@ -45,6 +45,22 @@
     border: 2px solid;
     padding: 12px 18px;
 }
+.btn-secondary{
+    color: #fff;
+    background-color: #3570D2;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 8px;    
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+.btn-secondary:hover{
+    color: #3570D2;
+    background-color: #fff;
+    border: 2px solid;
+    padding: 14px 38px;
+}
 .hero-content{
     display: flex;
     height: 536px;
@@ -66,6 +82,62 @@
     line-height: 150%;
     margin-bottom: 24px;
 }
+.hero .hero-img{
+    width: 518px;
+    height: 518px;
+}
+.layanan-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    margin: 64px 0;
+}
+.layanan-wrapper h1{
+    color: #110F14;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
 
-
-/*this is third testing*/
+}
+.layanan-explain p{
+    width: 692px;
+    margin: 14px 0 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #5F5A69;
+}
+.layanan-care{
+    display: flex;
+    justify-content: space-around;
+    height: 110px;
+    margin: 0 0 100px;
+}
+.layanan-care img{
+    width: 183px;
+    height: 175px;
+}
+.search-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 498px;
+}
+.search-wrapper img{
+    height: 440px;
+}
+.search-explain{
+    margin: 86px 0 86px 58px;
+}
+.search-explain h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #110F14;
+}
+.search-explain p{
+    margin: 12px 0 52px;
+    font-weight: 400;
+    font-size: 17.1px;
+    line-height: 150%;
+    color: #5F5A69;
+}
