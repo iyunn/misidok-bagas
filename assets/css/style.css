@@ -86,20 +86,20 @@
     width: 518px;
     height: 518px;
 }
-.layanan-wrapper{
+.services-wrapper{
     display: flex;
     justify-content: space-between;
     height: 110px;
     margin: 64px 0;
 }
-.layanan-wrapper h1{
+.services-wrapper h1{
     color: #110F14;
     font-weight: 700;
     font-size: 40px;
     line-height: 55px;
 
 }
-.layanan-explain p{
+.services-explain p{
     width: 692px;
     margin: 14px 0 15px;
     font-weight: 400;
@@ -107,13 +107,13 @@
     line-height: 150%;
     color: #5F5A69;
 }
-.layanan-care{
+.services-care{
     display: flex;
     justify-content: space-around;
     height: 110px;
     margin: 0 0 100px;
 }
-.layanan-care img{
+.services-care img{
     width: 183px;
     height: 175px;
 }
